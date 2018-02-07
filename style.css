@@ -1,0 +1,27 @@
+.main{
+    margin-top: 50px;
+}
+
+.container{
+    text-align: center;
+}
+
+a, .tag {
+    color: dimgrey;
+    font-size: 15px;
+    font-family: Gabriola;
+}
+
+a, .tag:hover{
+    color: black;
+}
+
+.kandziukas-logo {
+    background-image: url("logo2.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 40px;
+    z-index: 2;
+}
