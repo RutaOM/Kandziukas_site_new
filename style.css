@@ -6,22 +6,121 @@
     text-align: center;
 }
 
-a, .tag {
+a{
     color: dimgrey;
     font-size: 15px;
-    font-family: Gabriola;
+    font-family: "Courier New";
 }
 
-a, .tag:hover{
-    color: black;
+a:hover{
+    color:#800000;
+    text-shadow:  #e6e6e6 2px 12px;
+    text-decoration: none;
 }
 
 .kandziukas-logo {
     background-image: url("logo2.jpg");
-    width: 100px;
-    height: 100px;
+    width: 78px;
+    height: 70px;
     background-repeat: no-repeat;
     text-align: center;
-    margin-left: 40px;
-    z-index: 2;
+    margin: 0 auto;
+}
+
+.main-img{
+    background-image: url("img.jpg");
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-about{
+    font-size: 15px;
+    font-family: "Courier New";
+    text-align: justify;
+}
+
+
+h5{
+    color: dimgrey;
+}
+
+.kandziukas-name{
+    color: maroon;
+}
+
+.renkates{
+    text-decoration: underline gray;
+
+}
+.originalus-image{
+    background-image: url("ka.jpg");
+
+}
+
+.shipping{
+    background-image: url("6nemokamas siuntimas.png");
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.natural{
+    background-image: url("5naturalus.png");
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.lithuanian{
+    background-image: url("7lietuviska.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.itworks{
+    background-image: url("1veikia.png");
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+
+}
+
+.inexpensive{
+    background-image: url("2taupo.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.quallity{
+    background-image: url("4kokybe.png");
+    height: 100px;
+    width: 100px;
+    object-fit: scale-down;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+
+}
+
+.notesting{
+    background-image: url("3netestuota.png");
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.loved{
+    background-image: url("loved.png");
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
 }
