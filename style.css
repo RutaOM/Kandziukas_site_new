@@ -9,7 +9,7 @@
 a{
     color: dimgrey;
     font-size: 15px;
-    font-family: "Courier New";
+    font-family: "Verdana";
 }
 
 a:hover{
@@ -36,7 +36,7 @@ a:hover{
 
 .main-about{
     font-size: 15px;
-    font-family: "Courier New";
+    font-family: "Verdana";
     text-align: justify;
 }
 
@@ -45,12 +45,24 @@ h5{
     color: dimgrey;
 }
 
+.main-about{
+}
+
 .kandziukas-name{
     color: maroon;
 }
 
+.features{
+    font-family: "Verdana";
+    font-size: 15px;
+
+
+}
+
 .renkates{
     text-decoration: underline gray;
+    margin: 50px 0;
+    font-size: 20px;
 
 }
 .originalus-image{
@@ -58,69 +70,128 @@ h5{
 
 }
 
-.shipping{
-    background-image: url("6nemokamas siuntimas.png");
-    height: 100px;
-    width: 100px;
-    background-size: 100px 100px;
+.shipping-division{
+    margin: 25px 0 25px 0;
+}
+.shipping {
+    background-image: url('shipping.jpg');
+    height: 50px;
+    width: 50px;
+    float: left;
     background-repeat: no-repeat;
 }
 
+.shipping-text{
+    width: 150px;
+    float: left;
+}
+.natural-division{
+    margin: 25px 0 25px 0;
+}
 .natural{
-    background-image: url("5naturalus.png");
-    height: 100px;
-    width: 100px;
-    background-size: 100px 100px;
+    background-image: url('green.png');
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    float: left;
     background-repeat: no-repeat;
+}
+
+.natural-text{
+    width: 150px;
+    float: left;
+}
+
+.lithuanian-division{
+    margin: 25px 0 25px 0;
 }
 
 .lithuanian{
-    background-image: url("7lietuviska.jpg");
-    height: 100px;
-    width: 100px;
-    background-size: 100px 100px;
+    background-image: url("lietuviska.png");
+    height: 50px;
+    width: 50px;
+    float: left;
     background-repeat: no-repeat;
 }
 
+.lithuanian-text{
+    width: 150px;
+    float: left;
+}
+
+.itworks-division{
+    margin: 25px 0 25px 0;
+}
 .itworks{
-    background-image: url("1veikia.png");
-    height: 100px;
-    width: 100px;
-    background-size: 100px 100px;
+    background-image: url("veikia.png");
+    height: 50px;
+    width: 50px;
+    float: left;
     background-repeat: no-repeat;
-
+}
+.itworks-text{
+    width: 150px;
+    float: left;
 }
 
+.inexpensive-division{
+    margin: 25px 0 25px 0;}
 .inexpensive{
-    background-image: url("2taupo.jpg");
-    height: 100px;
-    width: 100px;
-    background-size: 100px 100px;
+    background-image: url("taupo.png");
+    height: 50px;
+    width: 50px;
+    float: left;
     background-repeat: no-repeat;
+}
+
+.inexpensive-text{
+    width: 150px;
+    float: left;
+}
+
+.quallity-division{
+    margin: 25px 0 25px 0;
 }
 
 .quallity{
-    background-image: url("4kokybe.png");
-    height: 100px;
-    width: 100px;
-    object-fit: scale-down;
-    background-size: 100px 100px;
+    background-image: url("kokybe.png");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.quallity-text{
+    width: 150px;
+    float: left;
+}
+
+.notesting-division{
+    margin: 25px 0 25px 0;
+}
+.notesting{
+    background-image: url("bigger.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
     background-repeat: no-repeat;
 
 }
-
-.notesting{
-    background-image: url("3netestuota.png");
-    height: 100px;
-    width: 100px;
-    background-size: 100px 100px;
-    background-repeat: no-repeat;
+.notesting-text{
+    width: 150px;
+    float: left;
+}
+.loved-division{
+    margin: 25px 0 25px 0;
 }
 
 .loved{
-    background-image: url("loved.png");
-    height: 100px;
-    width: 100px;
-    background-size: 100px 100px;
-    background-repeat: no-repeat;
+    background-image: url("liked.png");
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.loved-text{
+    width: 150px;
+    float: left;
 }
