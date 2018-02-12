@@ -19,7 +19,7 @@ a:hover{
 }
 
 .kandziukas-logo {
-    background-image: url("logo2.jpg");
+    background-image: url("lips_logo_small.jpg");
     width: 78px;
     height: 70px;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ a:hover{
 }
 
 .main-img{
-    background-image: url("img.jpg");
+    background-image: url("kand.jpg");
     height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -66,7 +66,7 @@ h5{
 
 }
 .originalus-image{
-    background-image: url("ka.jpg");
+    background-image: url("kand.jpg");
 
 }
 
@@ -89,7 +89,7 @@ h5{
     margin: 25px 0 25px 0;
 }
 .natural{
-    background-image: url('green.png');
+    background-image: url('naturalus2.png');
     background-size: 50px 50px;
     height: 50px;
     width: 50px;
@@ -154,7 +154,7 @@ h5{
 }
 
 .quallity{
-    background-image: url("kokybe.png");
+    background-image: url("medalis.png");
     height: 50px;
     width: 50px;
     float: left;
@@ -170,7 +170,7 @@ h5{
     margin: 25px 0 25px 0;
 }
 .notesting{
-    background-image: url("bigger.jpg");
+    background-image: url("animal.jpg");
     height: 50px;
     width: 50px;
     float: left;
